@@ -25,4 +25,4 @@ streamCopy: {
 }
 ```
 
-* `extensions`: The extensions to be stream copied. Files possessing these extensions will be copied from the `watch.sourceDir` to `watch.compiledDir` and then processing for the files will stop.
+* `extensions`: The extensions to be stream copied. Files possessing these extensions will be copied from the `watch.sourceDir` to `watch.compiledDir` and then processing for the files will stop. If any other modules expect to process these files during `watch` or `build` they will be unable to, so be sure to only include those files that do not need other processing.
