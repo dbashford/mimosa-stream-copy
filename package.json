@@ -1,6 +1,6 @@
 {
   "name": "mimosa-stream-copy",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/dbashford/mimosa-stream-copy",
   "author": "David Bashford",
   "description": "Mimosa module to stream files that do not need any other processing, like images, to the output directory",
